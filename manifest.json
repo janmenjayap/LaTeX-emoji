@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "LaTeX-emoji",
+    "version": "0.0.1",
+    "author": "Janmenjaya Panda",
+    "description": "An extension for displaying emojis and copying the LaTeX formatted string to clipboard.",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "icons/emoji-16.png",
+            "48": "icons/emoji-48.png",
+            "128": "icons/emoji-128.png"
+        }
+    },
+    "permissions": [
+        "clipboardWrite",
+        "storage",
+        "activeTab",
+        "notifications"
+    ]
+}
